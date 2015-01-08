@@ -2,3 +2,44 @@ Naomi Zarrilli
 January 8, 2015
 shapewaystest
 Source(s): cplusplus.com
+
+Architecture: An unordered map implementation of a hash table is used to store
+instances of an ArtistData class. Keys are created from the artist name strings.
+An ArtistData class contains a vector with integers representing lists that the
+artist appears in.
+
+
+Interfaces:
+	artistData:	 represents a single artist and a vector list of the
+			 last.fm list numbers it appears in, also includes
+			 functions to access information about an artist
+	artistMap:	 represents an unordered map of ArtistData from the
+			 artistData class
+
+
+Invariants:
+
+	- Each list is assigned a number when it is read in, which 
+	  means that each artist's vector of lists the artist appears in will
+	  be, by default, sorted in ascending order. A list will never have a
+	  greater number than any lists inserted before it.
+	- No artist will appear more than once in the unordered map of artists
+	- No list number will apear more than once in an artists vector of list
+	  numbers the artist appears in
+
+
+Optimizations: a hash table was implemented using an unordered map in order to
+improve performance for inserting an artist and searching for an artist. The
+average complexity case for both of these is constant. Neither probing or
+chaining is necessary becauase when an artist gets hashed to the same place,
+this means the artist's vector will be updated.
+Various optimizations were implemented for the functions that search for pairs.
+Because iterating through an artist's vector and comparing to another can have,
+in the worst case, quadratic complexity, a function with boolean checks is
+called to determine if the otherList fulfills prerequisites that would greatly
+indicate there are more than 50 pairs between the two lists. If this check
+fails, the check is completed and only had to call on functions of constant
+complexity. Subsequently, a function determines where in the otherList
+the current list will start comparing its elements to. This can cut down on
+the nested loops' quadratic complexity by avoiding unncessary iterations of the
+outer loop that would otherwise be certain to find no pairs.

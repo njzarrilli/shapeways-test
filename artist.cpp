@@ -34,6 +34,7 @@ void ArtistData::update_lists_appeared_in(int list_num)
 //Checks for pairs between the class instance's list and another list
 //by iterating through the current list and checking the other list
 //for each value in the current list.
+//Note: relies on the artist's list vectors to be sorted
 bool ArtistData::found_pairs(vector<int> otherList)
 {
 	int pair_count = 0;

@@ -21,7 +21,7 @@ class ArtistData {
 		~ArtistData();
 	private:
 		string artist_name;
-		vector<int> lists_appeared_in;
+		vector<int> lists_appeared_in; //list will be sorted
 		bool pairs_possible(vector<int> currList);
 		int determine_iter(vector<int> currList);
 };

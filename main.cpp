@@ -16,6 +16,7 @@ int main(int argc, char* argv[])
 	else {
 		cerr << "Requires artist_list.txt" << endl;
 	}
+	delete artists;
 	return 0;
 }
 
