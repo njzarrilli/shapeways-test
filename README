@@ -3,6 +3,9 @@ January 8, 2015
 shapewaystest
 Source(s): cplusplus.com
 
+
+How to run: make ./shapewaystest FILENAME.txt
+
 Architecture: An unordered map implementation of a hash table is used to store
 instances of an ArtistData class. Keys are created from the artist name strings.
 An ArtistData class contains a vector with integers representing lists that the
