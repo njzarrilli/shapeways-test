@@ -23,7 +23,7 @@ class ArtistMap{
 		void print_pairs();
 		~ArtistMap();
 	private:
-		unordered_map<string, *ArtistData> artists_and_lists;
+		unordered_map<string, ArtistData*> artists_and_lists;
 		void process_list(string list, int list_num);
 		void proces_artist(string artist_name, int list_num);
 		void process_artist(string artist, int list_num);

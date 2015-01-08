@@ -11,6 +11,7 @@ class ArtistData {
 		ArtistData(string name, int list_num);
 		string get_artist_name();
 		vector<int> get_artist_vector();
+		void print_artist_vector();
 		void update_lists_appeared_in(int list_num);
 		bool over_fifty_pairs(vector<int> currList);
 		~ArtistData();

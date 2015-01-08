@@ -19,6 +19,15 @@ vector<int> ArtistData::get_artist_vector()
 	return lists_appeared_in;
 }
 
+void ArtistData::print_artist_vector()
+{
+	for (vector<int>::iterator i = lists_appeared_in.begin();
+			i != lists_appeared_in.end(); i++) {
+		cout << ' ' << *i;
+	}
+	cout << endl;
+}
+
 void ArtistData::update_lists_appeared_in(int list_num)
 {
 	lists_appeared_in.push_back(list_num);
@@ -31,7 +40,7 @@ bool ArtistData::over_fifty_pairs(vector<int> currList)
 	int iter = 0;
 	
 	if (pairs_possible(currList) == false) {
-		cout << "No possible pairs" << endl;
+		//cout << "No possible pairs" << endl;
 		return false;
 	}
 	iter = determine_iter(currList);
@@ -40,23 +49,26 @@ bool ArtistData::over_fifty_pairs(vector<int> currList)
 		cout << 
 		return false;
 	}*/
-	cout << "FOUND ITER AT: " << iter << endl;
+	//cout << "FOUND ITER AT: " << iter << endl;
 	//cout << "sizeof: " << lists_appeared_in.size() << endl;
 		for (unsigned i = 0; i < lists_appeared_in.size(); i++) {
 			//cout << "AT: " << lists_appeared_in[i] << endl;
 			for (unsigned j = (unsigned)iter; j < currList.size(); 
 					j++) {
 				if (lists_appeared_in[i] == currList[j]) {
-					cout << lists_appeared_in[i] << endl;
+					//cout << lists_appeared_in[i] << endl;
 					pair_count++;
+					if (pair_count == 50) {
+						return true;
+					}
 				}
 			}
 		}
-		//if (pair_count >= 50) {
+		//if (pair_count > 49) {
 		//	return true;
 		//}
 	//}
-	cout << "pair count: " << pair_count << endl;	
+	//cout << "pair count: " << pair_count << endl;	
 	return false;
 }	
 
@@ -71,7 +83,7 @@ bool ArtistData:: pairs_possible(vector<int> currList)
 	//if smallest val in list is greater than the greatest val in currList
 	//there will be no overlapping vals because lists are sorted
 	if (lists_appeared_in.front() > currList.back()) {
-		cout << "IN FIRST PP CONDITIONAL" << endl;
+		//cout << "IN FIRST PP CONDITIONAL" << endl;
 		return false;
 	}
 	//l: 1, 3, 5
@@ -79,7 +91,7 @@ bool ArtistData:: pairs_possible(vector<int> currList)
 	//if greatest val in list is less than the smallest val in currList
 	//there will be no overlapping vals because lists are sorted
 	if (lists_appeared_in.back() < currList.front()) {
-		cout << "IN SECND PP CONDITIONAL" << endl;
+		//cout << "IN SECND PP CONDITIONAL" << endl;
 		return false;
 	}
 	return true;
