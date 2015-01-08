@@ -1,0 +1,101 @@
+PAIR: The Strokes Arctic Monkeys
+PAIR: The Strokes Radiohead
+PAIR: The Strokes The Killers
+PAIR: The Strokes Muse
+PAIR: The Strokes The Beatles
+PAIR: Death Cab for Cutie Radiohead
+PAIR: Death Cab for Cutie Muse
+PAIR: Death Cab for Cutie The Beatles
+PAIR: Lady Gaga Paramore
+PAIR: Lady Gaga Britney Spears
+PAIR: Lady Gaga Lily Allen
+PAIR: Lady Gaga Ke$ha
+PAIR: Lady Gaga Rihanna
+PAIR: Lady Gaga Coldplay
+PAIR: Lady Gaga Muse
+PAIR: Lady Gaga The Beatles
+PAIR: The Kooks Arctic Monkeys
+PAIR: The Kooks Muse
+PAIR: Linkin Park Muse
+PAIR: Arctic Monkeys Radiohead
+PAIR: Arctic Monkeys Oasis
+PAIR: Arctic Monkeys Nirvana
+PAIR: Arctic Monkeys Kings of Leon
+PAIR: Arctic Monkeys The Killers
+PAIR: Arctic Monkeys MGMT
+PAIR: Arctic Monkeys Franz Ferdinand
+PAIR: Arctic Monkeys Placebo
+PAIR: Arctic Monkeys Coldplay
+PAIR: Arctic Monkeys Muse
+PAIR: Arctic Monkeys The Beatles
+PAIR: The Cure Radiohead
+PAIR: The Cure The Smiths
+PAIR: The Cure Muse
+PAIR: Red Hot Chili Peppers Radiohead
+PAIR: Red Hot Chili Peppers Nirvana
+PAIR: Red Hot Chili Peppers The Killers
+PAIR: Red Hot Chili Peppers Coldplay
+PAIR: Red Hot Chili Peppers Muse
+PAIR: Red Hot Chili Peppers The Beatles
+PAIR: Red Hot Chili Peppers Foo Fighters
+PAIR: Radiohead David Bowie
+PAIR: Radiohead Oasis
+PAIR: Radiohead Nirvana
+PAIR: Radiohead Pearl Jam
+PAIR: Radiohead Kings of Leon
+PAIR: Radiohead The Killers
+PAIR: Radiohead Pink Floyd
+PAIR: Radiohead Franz Ferdinand
+PAIR: Radiohead Placebo
+PAIR: Radiohead Coldplay
+PAIR: Radiohead The Smiths
+PAIR: Radiohead Muse
+PAIR: Radiohead The Beatles
+PAIR: Radiohead Foo Fighters
+PAIR: David Bowie The Beatles
+PAIR: Led Zeppelin Pink Floyd
+PAIR: Led Zeppelin The Beatles
+PAIR: Oasis Nirvana
+PAIR: Oasis The Killers
+PAIR: Oasis Coldplay
+PAIR: Oasis Muse
+PAIR: Oasis The Beatles
+PAIR: Paramore Muse
+PAIR: Metallica System of a Down
+PAIR: Metallica Iron Maiden
+PAIR: Metallica Muse
+PAIR: 30 Seconds to Mars Muse
+PAIR: System of a Down Muse
+PAIR: Nirvana Pearl Jam
+PAIR: Nirvana Placebo
+PAIR: Nirvana Coldplay
+PAIR: Nirvana Muse
+PAIR: Nirvana The Beatles
+PAIR: Nirvana Foo Fighters
+PAIR: Kasabian Muse
+PAIR: Snow Patrol Muse
+PAIR: Green Day Muse
+PAIR: Queen Muse
+PAIR: Queen The Beatles
+PAIR: Kings of Leon The Killers
+PAIR: Kings of Leon Coldplay
+PAIR: Kings of Leon Muse
+PAIR: The Killers Placebo
+PAIR: The Killers Coldplay
+PAIR: The Killers Muse
+PAIR: The Killers The Beatles
+PAIR: MGMT Muse
+PAIR: MGMT The Beatles
+PAIR: Pink Floyd Muse
+PAIR: Pink Floyd The Beatles
+PAIR: Franz Ferdinand Muse
+PAIR: Franz Ferdinand The Beatles
+PAIR: The Rolling Stones The Beatles
+PAIR: Incubus Muse
+PAIR: Placebo Coldplay
+PAIR: Placebo Muse
+PAIR: Coldplay Muse
+PAIR: Coldplay The Beatles
+PAIR: The Smiths The Beatles
+PAIR: Muse The Beatles
+PAIR: Muse Foo Fighters

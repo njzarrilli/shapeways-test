@@ -1,3 +1,8 @@
+/* Naomi Zarrili
+ * January 1, 2015
+ * artist.h defines the ArtistData class
+ */
+
 #ifndef __ARTIST_H__
 #define __ARTIST_H__
 
@@ -11,9 +16,8 @@ class ArtistData {
 		ArtistData(string name, int list_num);
 		string get_artist_name();
 		vector<int> get_artist_vector();
-		void print_artist_vector();
 		void update_lists_appeared_in(int list_num);
-		bool over_fifty_pairs(vector<int> currList);
+		bool found_pairs(vector<int> currList);
 		~ArtistData();
 	private:
 		string artist_name;
