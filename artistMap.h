@@ -4,33 +4,30 @@
  * represent the artists and the lists the artists appear in
  */
 
-#ifndef __ARTISTSLIST_H__
-#define __ARTISTSLIST_H__
+#ifndef __ARTISTMAP_H__
+#define __ARTISTMAP_H__
 
 #include <iostream>
-#include <vector>
 #include <string>
 #include <unordered_map>
+#include "artist.h"
 
 //const double LOADMAX = 0.5;
 
 using namespace std;
 
-struct artist_data; {
-	string artist;
-	vector<int> lists_appeared_in;
-};
-
-class ArtistsList {
+class ArtistMap{
 	public:
-		ArtistsList();
-		void process_lists(string list_artists, int list_count);
-		~ArtistsList();
+		ArtistMap();
+		void read_artist_lists(char* filename);
+		void print_pairs();
+		~ArtistMap();
 	private:
-		bool artist_in_list(string artist);
+		unordered_map<string, *ArtistData> artists_and_lists;
+		void process_list(string list, int list_num);
+		void proces_artist(string artist_name, int list_num);
 		void process_artist(string artist, int list_num);
 		void update_lists_appeared_in(string artist, int list_num);
-		void find_pairs();
 };
 
 
