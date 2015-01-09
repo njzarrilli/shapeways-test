@@ -34,18 +34,7 @@ void ArtistMap::read_artist_lists(char* filename)
 		process_list(list, list_num);
 		list_num++;
 	}
-	//DEBUGGING
-	/*for (auto x = artists_and_lists.begin(); x != artists_and_lists.end();
-			x++) {
-		cout << x->first << endl;
-		x->second->print_artist_vector();
-		cout << "*************************************************"
-			<<endl;
-	}
-	cout << endl;
-	*/
 }
-
 
 //creates artist_names from a single list of artists and name by name sends each
 //to a processing function
