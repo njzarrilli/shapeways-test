@@ -1,10 +1,10 @@
 /* Naomi Zarrili
  * January 1, 2015
- * artist.h defines the ArtistData class
+ * artistData.h defines the ArtistData class
  */
 
-#ifndef __ARTIST_H__
-#define __ARTIST_H__
+#ifndef __ARTIST_DATA_H__
+#define __ARTIST_DATA_H__
 
 #include <iostream>
 #include <vector>
@@ -21,9 +21,11 @@ class ArtistData {
 		~ArtistData();
 	private:
 		string artist_name;
-		vector<int> lists_appeared_in; //list will be sorted
+		vector<int> lists_appeared_in;	//vector of list numbers artist
+						//appears in
 		bool pairs_possible(vector<int> currList);
 		int determine_iter(vector<int> currList);
+		void print_artist_vector(); //DEBUGGING FUNCTION
 };
 
 #endif

@@ -5,8 +5,8 @@
 CXX = clang++
 FLAGS = -std=c++11 -Wall -Wextra -Wconversion -g
 
-shapewaystest: artistMap.h artistMap.cpp artistData.h artistData.cpp main.cpp
-	${CXX} ${FLAGS} -o shapewaystest artistMap.cpp artistData.cpp main.cpp
+shapewaystest: artistData.h artistData.cpp artistMap.h artistMap.cpp main.cpp
+	${CXX} ${FLAGS} -o shapewaystest artistData.cpp artistMap.cpp main.cpp
 
 clean:
 	rm -f shapewaystest

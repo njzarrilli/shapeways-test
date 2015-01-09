@@ -10,9 +10,7 @@
 #include <iostream>
 #include <string>
 #include <unordered_map>
-#include "artist.h"
-
-//const double LOADMAX = 0.5;
+#include "artistData.h"
 
 using namespace std;
 

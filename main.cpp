@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include "artistMap.h"
-//#include "artist.h"
 
 using namespace std;
 

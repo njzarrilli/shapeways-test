@@ -6,7 +6,7 @@
  */
 
 #include <iostream>
-#include "artist.h"
+#include "artistData.h"
 
 using namespace std;
 
@@ -24,6 +24,16 @@ string ArtistData::get_artist_name()
 vector<int> ArtistData::get_artist_vector()
 {
 	return lists_appeared_in;
+}
+
+//USED FOR DEBUGGING PURPOSES
+void ArtistData::print_artist_vector()
+{
+	for (vector<int>::iterator i = lists_appeared_in.begin();
+			i != lists_appeared_in.end(); i++) {
+			cout << ' ' << *i;
+	}
+	cout << endl;
 }
 
 void ArtistData::update_lists_appeared_in(int list_num)
